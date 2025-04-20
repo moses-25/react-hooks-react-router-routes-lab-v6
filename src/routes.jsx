@@ -1,8 +1,11 @@
-import Home from "./pages/Home";
-import Movie from "./pages/Movie";
-import Directors from "./pages/Directors";
-import Actors from "./pages/Actors";
-import ErrorPage from "./pages/ErrorPage";
+import React from "react";
+import { createBrowserRouter } from "react-router-dom";
+import Home from "./components/Home";
+import ErrorPage from "./components/ErrorPage";
+import Directors from "./components/Directors";
+import Actors from "./components/Actors";
+import Movie from "./components/Movie";
+
 
 const routes = [
   {

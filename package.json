@@ -2,11 +2,12 @@
   "name": "react-hooks-react-router-routes-lab",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "dependencies": {
+    "json-server": "^1.0.0-beta.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2"
+    "react scripts": "^5.0.1",
   },
   "devDependencies": {
     "@learn-co-curriculum/jest-learn-reporter": "^0.1.0",
